@@ -59,8 +59,6 @@
 - [Additional feature: Likes and dislikes](#additional-feature-likes-and-dislikes)
 	- [Schema design](#schema-design-1)
 	- [Denormalize](#denormalize)
-- [Drafted overflow](#drafted-overflow)
-- [Friendly links - good summary on newsfeed](#friendly-links---good-summary-on-newsfeed)
 
 <!-- /MarkdownTOC -->
 
@@ -333,8 +331,3 @@ getNewsFeed(request)
 * Might resulting in inconsistency, but not a big problem. 
 	- Could keep consistency with a background process.
 
-## Drafted overflow
-* [Pull push overview](./images/newsfeed_pullPushOverview.jpg)
-
-## Friendly links - good summary on newsfeed
-* https://liuzhenglaichn.gitbook.io/systemdesign/news-feed/facebook-news-feed
